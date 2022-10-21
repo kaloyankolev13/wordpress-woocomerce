@@ -9,7 +9,7 @@ endwhile; else: ?>
 <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
     </div>
-</div>
+</div> 
 
     <div id="section-2">
         <div id="section-2-text">
@@ -22,7 +22,7 @@ endwhile; else: ?>
                 </div>
             </a>
         </div>
-    </div>
+        </div>
     
     
 
