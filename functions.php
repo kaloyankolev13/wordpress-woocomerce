@@ -22,6 +22,13 @@ function remove_storefront_header_searchfield()
 }
 add_action('init', 'remove_storefront_header_searchfield');
 
+function my_stylized_header_before()
+{
+    
+        echo '<div class="banner"> <a class="banner-text" href="/shop"> Take advantage of our Sales and get free delivery with your order, when you purchase for more than <span class="banner-price"> 500 kr.</span> </a> </div>';
+}
+add_action('storefront_before_header', 'my_stylized_header_before', 5);
+
 function load_page_css()
 {
     global $post;

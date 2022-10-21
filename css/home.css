@@ -1,1 +1,26 @@
+.banner {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #5ed608;
+}
+.banner-text {
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+#content {
+  width: 100%;
+  background-image: url('../img/black_market.jpeg'),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-size: cover;
+}
 
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 30px;
+}
