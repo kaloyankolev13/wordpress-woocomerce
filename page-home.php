@@ -12,8 +12,16 @@ endwhile; else: ?>
 </div>
 
     <div id="section-2">
-        <div id="section-2-text"></div>
-        <div id="section-2-link"></div>
+        <div id="section-2-text">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div id="section-2-link">
+            <a href="/shop">
+                <div class='link-img'>
+                    <h1>Shop</h1>
+                </div>
+            </a>
+        </div>
     </div>
     
     
